@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Hind';
+    font-weight: 700;
+    src: local('Hind-bold'), url(./fonts/hind-bold.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 600;
+    src: local('Hind-semibold'), url(./fonts/hind-semibold.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 500;
+    src: local('Hind-medium'), url(./fonts/hind-medium.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 400;
+    src: local('Hind'), url(./fonts/hind-regular.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 100;
+    src: local('Hind-light'), url(./fonts/hind-light.otf) format('OpenType');
+}

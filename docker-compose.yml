@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+  front-ppm:
+    image: ${DOCKER_IMAGE}
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    networks:
+      - qualitygate
+
+#Docker Networks
+networks:
+  qualitygate:
+    external: true
+
+#Volumes
+volumes:
+  dbdata:
+    driver: local

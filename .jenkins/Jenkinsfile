@@ -1,0 +1,13 @@
+@Library('jenkins_lib@master')
+import br.com.isi.Commands
+import br.com.isi.ProjectMetadata
+
+def projectMetadata = new ProjectMetadata();
+def cmd = new Commands();
+
+projectMetadata.projectName = "flash-soil-front"
+projectMetadata.dockerfile = "Dockerfile"
+projectMetadata.language = "flashSoil"
+projectMetadata.version = "1.0"
+
+cmd.exec(projectMetadata);

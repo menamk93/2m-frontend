@@ -1,0 +1,57 @@
+{
+  "name": "flash-soil-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.42",
+    "@material-ui/pickers": "^3.2.10",
+    "@nivo/bar": "^0.61.1",
+    "@nivo/colors": "^0.61.0",
+    "@nivo/line": "^0.61.1",
+    "@nivo/pie": "^0.61.1",
+    "@nivo/stream": "^0.61.1",
+    "axios": "^0.19.1",
+    "cnpj": "^3.0.0",
+    "date-fns": "^2.10.0",
+    "html2canvas": "^1.0.0-rc.5",
+    "jspdf": "1.4.1",
+    "material-ui-image": "^3.2.2",
+    "nivo": "^0.31.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-hook-form": "^5.0.3",
+    "react-icons": "^3.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-text-mask": "^5.4.3",
+    "rxjs": "^6.5.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0"
+  }
+}

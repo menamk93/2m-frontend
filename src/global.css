@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0;
+}
+
+body {
+    background: transparent linear-gradient(0deg, #F8F8F8 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+
